@@ -1,0 +1,9 @@
+<mat-toolbar color="primary">
+  <a mat-icon-button [matMenuTriggerFor]="appMenu">
+    <mat-icon>menu</mat-icon>
+  </a>
+</mat-toolbar>
+
+<mat-menu #appMenu="matMenu">
+  <button mat-menu-item routerLink="/buttons-form-field">Buttons Form Field</button>
+</mat-menu>
