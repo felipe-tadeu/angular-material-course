@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ButtonsFormFieldComponent implements OnInit {
 
+  password: string = ''
+
+  flag: boolean = false
+
   constructor() { }
 
   ngOnInit() {
