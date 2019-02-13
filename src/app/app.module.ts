@@ -9,12 +9,14 @@ import { ButtonsFormFieldComponent } from './buttons-form-field/buttons-form-fie
 import { ToolbarComponent } from './toolbar/toolbar.component';
 
 import {MaterialModule} from './material.module';
+import { AutocompleteDemoComponent } from './autocomplete-demo/autocomplete-demo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ButtonsFormFieldComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    AutocompleteDemoComponent
   ],
   imports: [
     BrowserModule,
